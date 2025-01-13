@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s linear;
+}
+
+a:hover {
+  color: #0f0;
+}
+
+sub {
+  color: #0f0;
+  text-transform: lowercase;
+}
+
+h1 {
+  text-align: center;
+  margin: 2vw 0vw;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  color: #0f0;
+  transition: all 0.5s linear;
+  margin: 1vw 0vw;
+  font-size: 1.5vw;
+}
+
+.contener {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contener p {
+  margin-bottom: 1vw;
+  font-size: 2vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+#hack {
+  margin-top: 1vw;
+  padding: 0px 1vw;
+  transition: all 0.5s linear;
+}
+
+#input {
+  margin: 1vw 0vw;
+  padding: 1.5vw;
+  width: 50vw;
+  color: #0f0;
+  outline: none;
+  border: 0.2vw solid #fff;
+  background: black;
+  border-radius: 1vw;
+  font-size: 2vw;
+  transition: all 0.5s linear;
+}
+
+#input:focus, #input:hover {
+  border: 0.2vw solid #0f0;
+}
+
+#button {
+  background: black;
+  border: 0.2vw solid white;
+  padding: 1.5vw;
+  margin: 1vw 0vw;
+  width: 50vw;
+  color: #fff;
+  border-radius: 1vw;
+  font-size: 2vw;
+  transition: all 0.5s linear;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+#button:hover, #button:active {
+  border: 0.2vw solid #0f0;
+  color: #0f0;
+}
